@@ -1,0 +1,34 @@
+/* General Body Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Container for two vertical sections */
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Left content section styling */
+.content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: scroll; /* Enables scrolling for this section */
+    border-right: 1px solid #ccc;
+}
+
+/* Right form section styling */
+.form-container {
+    flex: 0.4; /* Smaller width for the form */
+    padding: 20px;
+    background-color: #fff;
+    position: sticky; /* Makes the form stick to the viewport */
+    top: 0; /* Sticks to the top of the page */
+    height: 100px; /* Ensures full height of the viewport */
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+}
