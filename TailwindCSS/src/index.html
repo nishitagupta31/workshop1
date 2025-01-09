@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Layout</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header class="bg-red-950 flex justify-between items-center px-12 py-8">
+            <h1 class="font-bold text-2xl text-white">Logo</h1>
+            <ul class="flex">
+                <li><a href="" class="text-white px-2 mx-1">Home</a></li>
+                <li><a href="" class="text-white px-2 mx-1">About</a></li>
+                <li><a href="" class="text-white px-2 mx-1">Gallery</a></li>
+                <li><a href="" class="text-white px-2 mx-1">Blog</a></li>
+                <li><a href="" class="text-white px-2 mx-1">Contact Us</a></li>
+
+                <li><a href="" class="text-black rounded-lg inline-block bg-white px-4 text-l mx-1 font-bold
+                    hover:bg-black hover:text-white">Login</a></li>
+            </ul>
+        </header>
+
+        <section id="hero" class="bg-gray-900 px-28 py-20 flex items-center">
+            <div class="w-2/4">
+                <h2 class="font-bold text-3xl text-white mb-2">Vrindavan Restraurant</h2>
+                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, tempore?</p>
+                 <a href="" class="text-black rounded-lg inline-block mt-4 bg-white px-8 py-2 text-xl font-bold
+                 hover:text-white hover:bg-black">Contact Us</a>
+            </div>
+            <div class="w-2/4">
+                <img class="h-70 w-128" src="resturent.jpeg" alt="">
+            </div>
+        </section>
+
+        <section id="food" class="bg-gray-700 py-10">
+            <h1 class="font-bold text-2xl text-white text-center mb-2">Our Menu</h1>
+            <p class="text-white text-center mb-8">Explore various cuisines and recipes here!</p>
+
+            <div class="menu-wrapper flex flex-wrap justify-evenly gap-2">
+                <div class="card text-center mb-8 max-[500px]:w-full w-[48%] min-[900px]:w-[30%]">
+                <img src="pizza.jpg" alt="Dish 1" class="w-full h-48 rounded-t-lg"/>
+                    <p class="text-white font-bold mb-2 text-xl">Pizza</p>
+                    <p  class="text-white">$3</p>
+                    <a href="" class="text-black rounded-md bg-white px-4 py-1 text-l mx-1 font-bold
+                    hover:bg-black hover:text-white mb-2">Add To Cart</a>
+                </div>
+
+                <div class="card text-center mb-8 max-[500px]:w-full w-[48%] min-[900px]:w-[30%]">
+                    <img src="sandwich.jpg" alt="Dish 1" class="w-full h-48 rounded-t-lg"/>
+                    <p class="text-white font-bold mb-2 text-xl">Grilled Cheese Sandwich</p>
+                    <p  class="text-white">$3</p>
+                    <a href="" class="text-black rounded-md bg-white px-4 py-1 text-l mx-1 font-bold
+                    hover:bg-black hover:text-white mb-2">Add To Cart</a>
+                </div>
+                <div class="card text-center mb-8 max-[500px]:w-full w-[48%] min-[900px]:w-[30%]">
+                    <img src="patties.jpg" alt="Dish 1" class="w-full h-48 rounded-t-lg"/>
+                    <p class="text-white font-bold mb-2 text-xl">Patties</p>
+                    <p  class="text-white">$3</p>
+                    <a href="" class="text-black rounded-md bg-white px-4 py-1 text-l mx-1 font-bold
+                    hover:bg-black hover:text-white mb-2">Add To Cart</a>
+                </div>
+            
+
+                <div class="card text-center mb-8 max-[500px]:w-full w-[48%] min-[900px]:w-[30%]">
+                    <img src="samosa.jpg" alt="Dish 1" class="w-full h-48 rounded-t-lg"/>
+                    <p class="text-white font-bold mb-2 text-xl">samosa</p>
+                    <p  class="text-white">$3</p>
+                    <a href="" class="text-black rounded-md bg-white px-4 py-1 text-l mx-1 font-bold
+                    hover:bg-black hover:text-white mb-2">Add To Cart</a>
+                </div>
+
+                <div class="card text-center mb-8 max-[500px]:w-full w-[48%] min-[900px]:w-[30%]">
+                    <img src="burger.webp" alt="Dish 1" class="w-full h-48 rounded-t-lg"/>
+                    <p class="text-white font-bold mb-2 text-xl">burger</p>
+                    <p  class="text-white">$3</p>
+                    <a href="" class="text-black rounded-md bg-white px-4 py-1 text-l mx-1 font-bold
+                    hover:bg-black hover:text-white mb-2">Add To Cart</a>
+                </div>
+
+                <div class="card text-center mb-8 max-[500px]:w-full w-[48%] min-[900px]:w-[30%]">
+                    <img src="chaumin.webp" alt="Dish 1" class="w-full h-48 rounded-t-lg"/>
+                    <p class="text-white font-bold mb-2 text-xl">Chawmein</p>
+                    <p  class="text-white">$3</p>
+                    <a href="" class="text-black rounded-md bg-white px-4 py-1 text-l mx-1 font-bold
+                    hover:bg-black hover:text-white mb-2">Add To Cart</a> </div> </div> </section>
+
+        <section id="chefs" class=" bg-gray-900 px-20 py-14">
+            <h1 class="font-bold text-2xl text-white text-center mb-2">Our Chefs</h1>
+        <div class="chef's wrapper flex flex-wrap justify-evenly gap-2">
+
+            <div class="card text-center mb-8 w-[48%] min-[900px]:w-[30%]">
+                <img src="sanjeev.jpg" alt="Dish 1" class="w-full h-48 rounded-t-lg"/>
+                <p class="text-white font-bold mb-2 text-xl">Sanjeev Kapoor</p>
+                <p  class="text-white">Hotel Management (3 years experience)</p>
+            </div>
+            <div class="card text-center mb-8 w-[48%] min-[900px]:w-[30%]">
+                <img src="ranvir_brar.webp" alt="Dish 1" class="w-full h-48 rounded-t-lg"/>
+                <p class="text-white font-bold mb-2 text-xl">Ranbir Brar</p>
+                <p  class="text-white">Hotel Management (3 years experience)</p>
+            </div>
+            <div class="card text-center mb-8 w-[48%] min-[900px]:w-[30%]">
+                <img src="Vikas-Khanna.webp" alt="Dish 1" class="w-full h-48 rounded-t-lg"/>
+                <p class="text-white font-bold mb-2 text-xl">Vikas Khanna</p>
+                <p  class="text-white">Hotel Management (3 years experience)</p>
+            </div>
+
+
+                   </div> 
+        </section>
+    </div>
+</body>
+</html>
